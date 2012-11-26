@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "commander":"latest",
-    "cucumber":"0.3.0",
-    "node-terminal":"latest"
+    "cucumber":"0.3.0"
   }
 }
