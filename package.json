@@ -1,9 +1,10 @@
 {
   "name": "spears",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "dependencies": {
     "commander":"latest",
-    "cucumber":"0.3.0"
+    "cucumber":"0.3.0",
+    "node-terminal":"latest"
   }
 }
