@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 
-var Spears = require('../lib/spears')(process.argv);
+var Spears    = require('../lib/spears')
+  , commander = require('commander');
+
+commander
+  .version('0.0.3')
+  .option('-c, --cucumber', 'Use cucumber and do not parallelize suite execution')
+  .parse(args);
 
 Spears.run(function () {
   var exitFunction = function() {
