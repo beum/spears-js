@@ -1,0 +1,9 @@
+  Scenario: Included scenario
+    Given this file
+    When an include statement is used
+    Then this should appear in the original file
+
+  Scenario: Second included scenario
+    Given the original feature file
+    When I use the include statement
+    Then it shouldn't matter how many scenarios there are
