@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.20
+4 verbose read json /Users/beum/Documents/node_projects/spears-js/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/beum/Documents/node_projects/spears-js',
+6 verbose install   [ 'commander', 'cucumber', 'underscore' ] ]
+7 verbose from cache /Users/beum/Documents/node_projects/spears-js/package.json
+8 info preinstall spears@0.0.15
+9 verbose read json /Users/beum/Documents/node_projects/spears-js/node_modules/commander/package.json
+10 verbose read json /Users/beum/Documents/node_projects/spears-js/node_modules/cucumber/package.json
+11 verbose read json /Users/beum/Documents/node_projects/spears-js/node_modules/underscore/package.json
+12 verbose from cache /Users/beum/Documents/node_projects/spears-js/package.json
+13 verbose readDependencies using package.json deps
+14 verbose from cache /Users/beum/Documents/node_projects/spears-js/node_modules/commander/package.json
+15 verbose from cache /Users/beum/Documents/node_projects/spears-js/node_modules/cucumber/package.json
+16 verbose from cache /Users/beum/Documents/node_projects/spears-js/node_modules/underscore/package.json
+17 verbose cache add [ 'commander@latest', null ]
+18 verbose cache add name=undefined spec="commander@latest" args=["commander@latest",null]
+19 verbose parsed url { pathname: 'commander@latest',
+19 verbose parsed url   path: 'commander@latest',
+19 verbose parsed url   href: 'commander@latest' }
+20 verbose cache add name="commander" spec="latest" args=["commander","latest"]
+21 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+22 verbose addNamed [ 'commander', 'latest' ]
+23 verbose addNamed [ null, null ]
+24 verbose cache add [ 'cucumber@https://github.com/beum/cucumber-js.git#master',
+24 verbose cache add   null ]
+25 verbose cache add name=undefined spec="cucumber@https://github.com/beum/cucumber-js.git#master" args=["cucumber@https://github.com/beum/cucumber-js.git#master",null]
+26 verbose parsed url { hash: '#master',
+26 verbose parsed url   pathname: 'cucumber@https://github.com/beum/cucumber-js.git',
+26 verbose parsed url   path: 'cucumber@https://github.com/beum/cucumber-js.git',
+26 verbose parsed url   href: 'cucumber@https://github.com/beum/cucumber-js.git#master' }
+27 verbose cache add name="cucumber" spec="https://github.com/beum/cucumber-js.git#master" args=["cucumber","https://github.com/beum/cucumber-js.git#master"]
+28 verbose parsed url { protocol: 'https:',
+28 verbose parsed url   slashes: true,
+28 verbose parsed url   host: 'github.com',
+28 verbose parsed url   hostname: 'github.com',
+28 verbose parsed url   href: 'https://github.com/beum/cucumber-js.git#master',
+28 verbose parsed url   hash: '#master',
+28 verbose parsed url   pathname: '/beum/cucumber-js.git',
+28 verbose parsed url   path: '/beum/cucumber-js.git' }
+29 silly lockFile 15586797-commander-latest commander@latest
+30 verbose lock commander@latest /Users/beum/.npm/15586797-commander-latest.lock
+31 silly lockFile e690147a--com-beum-cucumber-js-git-master https://github.com/beum/cucumber-js.git#master
+32 verbose lock https://github.com/beum/cucumber-js.git#master /Users/beum/.npm/e690147a--com-beum-cucumber-js-git-master.lock
+33 info addNameTag [ 'commander', 'latest' ]
+34 verbose addRemoteTarball [ 'https://github.com/beum/cucumber-js.git#master', null ]
+35 verbose cache add [ 'underscore@latest', null ]
+36 verbose cache add name=undefined spec="underscore@latest" args=["underscore@latest",null]
+37 verbose parsed url { pathname: 'underscore@latest',
+37 verbose parsed url   path: 'underscore@latest',
+37 verbose parsed url   href: 'underscore@latest' }
+38 verbose cache add name="underscore" spec="latest" args=["underscore","latest"]
+39 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+40 verbose addNamed [ 'underscore', 'latest' ]
+41 verbose addNamed [ null, null ]
+42 silly lockFile 546e1155-underscore-latest underscore@latest
+43 verbose lock underscore@latest /Users/beum/.npm/546e1155-underscore-latest.lock
+44 info addNameTag [ 'underscore', 'latest' ]
+45 info retry fetch attempt 1 at 02:58:00
+46 verbose fetch to= /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/tmp.tgz
+47 verbose url raw commander
+48 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+49 verbose url resolved https://registry.npmjs.org/commander
+50 info trying registry request attempt 1 at 02:58:00
+51 verbose etag "D7K1H7LZWS5MZ5237EITUFCEM"
+52 http GET https://registry.npmjs.org/commander
+53 http GET https://github.com/beum/cucumber-js.git#master
+54 verbose url raw underscore
+55 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+56 verbose url resolved https://registry.npmjs.org/underscore
+57 info trying registry request attempt 1 at 02:58:00
+58 verbose etag "75Y2DMOQ17X45XLAQFAVGXMAG"
+59 http GET https://registry.npmjs.org/underscore
+60 http 200 https://github.com/beum/cucumber-js.git#master
+61 http 304 https://registry.npmjs.org/commander
+62 silly registry.get cb [ 304,
+62 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+62 silly registry.get     etag: '"D7K1H7LZWS5MZ5237EITUFCEM"',
+62 silly registry.get     date: 'Mon, 29 Apr 2013 06:58:00 GMT',
+62 silly registry.get     'content-length': '0' } ]
+63 verbose etag commander from cache
+64 verbose addNamed [ 'commander', '1.1.1' ]
+65 verbose addNamed [ '1.1.1', '1.1.1' ]
+66 silly lockFile e890879a-commander-1-1-1 commander@1.1.1
+67 verbose lock commander@1.1.1 /Users/beum/.npm/e890879a-commander-1-1-1.lock
+68 verbose read json /Users/beum/.npm/commander/1.1.1/package/package.json
+69 silly lockFile e890879a-commander-1-1-1 commander@1.1.1
+70 silly lockFile e890879a-commander-1-1-1 commander@1.1.1
+71 verbose tar unpack /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/tmp.tgz
+72 silly lockFile 0323d12d-80595-0-7423571702092886-package /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/package
+73 verbose lock /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/package /Users/beum/.npm/0323d12d-80595-0-7423571702092886-package.lock
+74 silly lockFile 8d45d9ff-80595-0-7423571702092886-tmp-tgz /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/tmp.tgz
+75 verbose lock /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/tmp.tgz /Users/beum/.npm/8d45d9ff-80595-0-7423571702092886-tmp-tgz.lock
+76 silly lockFile 15586797-commander-latest commander@latest
+77 silly lockFile 15586797-commander-latest commander@latest
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 info already installed commander@1.1.1
+80 verbose read json /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/package/package.json
+81 error not a package /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/tmp.tgz
+82 silly lockFile 0323d12d-80595-0-7423571702092886-package /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/package
+83 silly lockFile 0323d12d-80595-0-7423571702092886-package /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/package
+84 silly lockFile 8d45d9ff-80595-0-7423571702092886-tmp-tgz /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/tmp.tgz
+85 silly lockFile 8d45d9ff-80595-0-7423571702092886-tmp-tgz /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/tmp.tgz
+86 silly lockFile e690147a--com-beum-cucumber-js-git-master https://github.com/beum/cucumber-js.git#master
+87 silly lockFile e690147a--com-beum-cucumber-js-git-master https://github.com/beum/cucumber-js.git#master
+88 error Error: ENOENT, open '/var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/package/package.json'
+89 error If you need help, you may report this log at:
+89 error     <http://github.com/isaacs/npm/issues>
+89 error or email it to:
+89 error     <npm-@googlegroups.com>
+90 error System Darwin 12.3.0
+91 error command "node" "/usr/local/bin/npm" "install"
+92 error cwd /Users/beum/Documents/node_projects/spears-js
+93 error node -v v0.8.20
+94 error npm -v 1.2.11
+95 error path /var/folders/yd/dqzqxcls1p11hz3cqxnstz_c0000gn/T/npm-610/1367218680595-0.7423571702092886/package/package.json
+96 error code ENOENT
+97 error errno 34
+98 verbose exit [ 34, true ]

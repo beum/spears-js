@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "commander":"latest",
-    "cucumber":"0.3.0",
+    "cucumber":"https://github.com/beum/cucumber-js.git#master",
     "underscore":"latest"
   }
 }
