@@ -1,10 +1,10 @@
 {
   "name": "spears",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "private": true,
   "dependencies": {
     "commander":"latest",
-    "cucumber":"https://github.com/beum/cucumber-js.git#master",
+    "cucumber":"git+https://github.com/beum/cucumber-js.git#master",
     "underscore":"latest"
   }
 }
