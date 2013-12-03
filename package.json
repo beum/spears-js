@@ -6,5 +6,8 @@
     "commander":"latest",
     "cucumber":"git+https://github.com/beum/cucumber-js.git#master",
     "underscore":"latest"
+  },
+  "bin": {
+    "spears": "./bin/spears"
   }
 }
