@@ -3,9 +3,9 @@
   "version": "0.0.16",
   "private": true,
   "dependencies": {
-    "commander":"latest",
+    "commander":"2.1.0",
     "cucumber":"git+https://github.com/beum/cucumber-js.git#master",
-    "underscore":"latest"
+    "underscore":"1.5.2"
   },
   "bin": {
     "spears": "./bin/spears"
